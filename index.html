@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="heading">
+    <h1 id=title>FFC Lovers!</h1>
+    <h1 id="title-desc">GET IN TOUCH WITH US</h1>
+    <p id="description">We would love to hear your suggestions to help us further develop</p>
+    </div>
+    <div id="main">
+        <form id="survey-form">
+        <div id="input-fields">
+            <label id="name-label"><b>Name:</b></label>
+            <input id="name" type="name" name="name" class="form" required placeholder="Full Name"><br>
+            <br>
+            <label id="email-label"><b>Email:</b></label>
+            <input id="email" type="email" name="email" class="form" required placeholder="example@mail.com"><br>
+            <br>
+            <label id="number-label"><b>Age:</b></label>
+            <input id="number" type="number" name="number" class="form" min="5" max="99" placeholder="12+">
+         </div>
+         <div id="dropdown-div"><br>
+            <label id="dropdown-label"><strong>Your favourite FFC menu:</strong></label><br>
+            <select id="dropdown" name="code-lang" class="form">
+                <option value="Chicken">Chicken Bak Kwa Burger</option>
+                <option value="Sweet">Sweet Potato Fries</option>
+                <option value="Original">Original Recipe Chicken </option>
+                <option value="Hot">Hot and Crispy Chicken</option>
+                <option value="Zinger">Zinger Stacker</option>
+                <option value="BBQ">BBQ Cheese Zinger</option>
+                <option value="Pockets">BBQ Pockets</option>
+                <option value="Deluxe">Deluxe Burger</option>
+            </select>
+         </div>
+         <div id="button-area">
+             <br>
+            <label id="job-label"><b>Member Status:</b></label><br>
+            <input type="radio" class="radio-inline" name="gender" value="employed" checked> Gold<br>
+            <input type="radio" class="radio-inline" name="gender" value="freelancer"> Platinum<br>
+            <input type="radio" class="radio-inline" name="gender" value="applier"> Silver<br>
+            <input type="radio" class="radio-inline" name="gender" value="unemployed"> Not a member
+          </div>
+          
+
+          <div id="dropdown"><br><br>
+            <label id="dropdown-label"><strong>What are you looking forward for future collboration  </strong></label><br>
+            <select id="dropdown" name="code-lang" class="form"><br><br>
+                <option value="BTS">BTS</option>
+                <option value="Despicable">Despicable Me</option>
+                <option value="Aespa">Aespa</option>
+                <option value="Spongebob">Spongebob</option>
+                <option value="Oggy">Oggy</option>
+                <option value="Tom">Tom & Jerry</option>
+                <option value="ruby">Ruby on rails</option>
+            </select>
+         </div>
+          <div id="button-area"><br><br>
+            <label id="os-label"><b>Latest Purchase of our menu:</b></label><br>
+            <input type="checkbox" name="tech1" value="Chicken">Chicken Slider<br>
+            <input type="checkbox" name="tech2" value="Cheesy">Cheesy Fries<br>
+            <input type="checkbox" name="tech3" value="Cream">Cream Soup<br>
+            <input type="checkbox" name="tech3" value="Deluxe">Deluxe Salted Egg Chicken<br>
+            <input type="checkbox" name="tech3" value="Others">Others<br>
+          </div>
+
+
+          <div id="ending"><br><br>
+            <label id="comments-label">Do you have any suggestion about this survey?</label><br>
+            <textarea style= height:120px;" class="form" placeholder="Please feel free to write a review..."></textarea><br><br>
+            <input id="submit" type="submit"  class="form">
+          </div>
+        </form>
+    </div>
+
+    
+</body>
+</html>
